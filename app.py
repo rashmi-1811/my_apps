@@ -5,8 +5,8 @@ from dash import Dash, dcc, html, Input, Output
 
 # --- Load Data ---
 
-df = pd.read_csv(r"C:\Users\Dell\Downloads\ecommerce_sales_data_new\List of Orders.csv")
-df1 = pd.read_csv(r"C:\Users\Dell\Downloads\ecommerce_sales_data_new\Order Details.csv")
+df = pd.read_csv("List of Orders.csv")
+df1 = pd.read_csv("Order Details.csv")
 
 dfn = df.dropna().copy()
 dfn['Order Date'] = pd.to_datetime(dfn['Order Date'], format='%d-%m-%Y')
@@ -155,4 +155,4 @@ def update_charts(states, categories, years):
 # --- Run App ---
 
 if __name__ == '__main__':
-    app.run(debug=True)
+     app.run(host="0.0.0.0", port=8080)
