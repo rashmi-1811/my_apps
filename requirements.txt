@@ -1,3 +1,10 @@
+
 dash
 pandas
 plotly
+streamlit
+numpy
+matplotlib
+seaborn
+scikit-learn
+
