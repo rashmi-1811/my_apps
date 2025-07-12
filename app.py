@@ -154,5 +154,9 @@ def update_charts(states, categories, years):
 # --- Run App ---
 
 if __name__ == '__main__':
+<<<<<<< HEAD
     app.run(host="0.0.0.0", port=8080)
 
+=======
+     app.run(host="0.0.0.0", port=8080)
+>>>>>>> e70e5d7886092810f073ee396ac0b6bd6ee0f38b
