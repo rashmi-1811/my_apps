@@ -1,4 +1,4 @@
-
+statsmodels
 dash
 pandas
 plotly
